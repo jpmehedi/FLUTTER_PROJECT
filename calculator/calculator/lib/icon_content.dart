@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
+import 'constants.dart';
 
-const lebelTextStyle = TextStyle(
-  fontSize: 20.00,
-  color: Color(0xFFFFFFFF),
-);
 
 class IconContent extends StatelessWidget {
   IconContent({this.icon, this.lebel});
@@ -24,7 +21,7 @@ class IconContent extends StatelessWidget {
         ),
         Text(
           lebel,
-          style: lebelTextStyle,
+          style: kLebelTextStyle,
         ),
       ],
     );
